@@ -1,0 +1,111 @@
+.btn{
+    background-color:white;
+    color: rgb(87, 87, 87);
+    outline: none;
+    border: 1px solid white;
+}
+a:hover{
+    color: black;
+}
+.image_arriere{
+    background: url("img/1.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+.btn:hover{
+    background-color:rgba(0, 0, 0, 0.3);
+    color: white;
+}
+nav{
+    background-color: white;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+    position: fixed;
+}
+a{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+.nom{
+    width: 200px;
+    background-color: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+    color: white;
+    transition: color 0.5s;
+    transition: background 0.5s;
+}
+.nom:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.chantre{
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    color: white;
+    transition: color 0.5s;
+    transition: background 0.5s;
+}
+.bio{
+    text-align: justify;
+}
+.chantre:hover{
+    background-color: white;
+    color: black;
+}
+.conteneurtext{
+    margin-top: 300px;
+}
+.titreh3{
+    color: rgb(87, 87, 87);
+}
+
+@media only screen and (max-width: 600px){
+    .accueil{
+        color: rgb(87, 87, 87);
+        background-color: white;
+    }
+    .propos{
+        visibility: hidden;
+    }
+    .contact{
+        visibility: hidden;
+    }
+    .oeuvres{
+        visibility: hidden;
+    }
+    nav{
+        background-color: white;
+        box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+        position: fixed;
+    }
+    .image_arriere{
+        background: url("img/1.jpg");
+        background-size: cover;
+        height: 300px;
+    }
+    .nom{
+        padding: 0px;
+        visibility: hidden;
+    }
+    .chantre{
+        padding: 0px;
+        visibility: hidden;
+    }
+
+    .conteneurtext{
+        margin-top: 120px;
+    }
+}
+/*@media only screen and (max-width:1024px){
+    .image_arriere{
+        background: url("img/FB_IMG_16511315490428647.jpg");
+        background-size: cover;
+        height: 400px;
+    }
+}*/
